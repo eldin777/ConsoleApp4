@@ -12,7 +12,7 @@ namespace ConsoleApp4
         {
             Employee e = new Employee(12,689542,8547471900,545,"Eldin","Kerala");
             Console.WriteLine($"Net Salary {e.GetNetSalary()}");
-            Console.WriteLine($"Get Grade Only {e.GetGrade()}");
+            Console.WriteLine($"Get Grade {e.GetGrade()}");
         }
     }
 }
